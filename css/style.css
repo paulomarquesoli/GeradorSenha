@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-image: linear-gradient(to right, #006676, #149d64);
+    display: flex;
+    height: auto;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main .container-principal {
+    background-color: #ffffff;
+    box-shadow: #32325d40 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    min-height: 80vh;
+    max-width: 900px;
+}
+
+.container-principal .container-banner {
+    align-items: center;
+    background: linear-gradient(to right, #006676c5, #149d64d2), url(img/bg-form.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.container-banner h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    line-height: 1em;
+    margin-left: 25px;
+    word-spacing: 20rem;
+}
+
+
+.container-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+    width: 50%;
+}
+
+.container-dados h2 {
+    color: #3d3d3d;
+    font-size: 2em;
+    margin: 0px;
+    text-align: center;
+}
+
+.container-dados p {
+    color: #6c6c6cbb;
+    font-size: 0.75em;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.container-dados label {
+    color: #3d3d3d;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.container-dados input {
+    height: 40px;
+    border: none;
+    border-bottom: solid 1px #6c6c6cbb;
+    margin-bottom: 10px;
+}
+
+.container-dados input:focus {
+    outline: 0;
+}
+
+.container-dados p a {
+    color: #3d3d3d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.container-dados button {
+    align-self: flex-end;
+    background-image: linear-gradient(to right, #00667677, #149d647e);
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 40px;
+    margin-top: 10px;
+    width: 150px;
+    transition: 0.2s;
+}
+
+.container-dados button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.senha-gerada {
+    align-items: center;
+    border: solid 3px #149d64;
+    display: none;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.senha-gerada p {
+    color: #149d64;
+    font-weight: 700;
+}
+
+.senha-gerada h3 {
+    margin: 0 0 10px 0;
+
+}
+
+.senha-gerada button {
+    align-self: center;
+    width: 100px;
+}
