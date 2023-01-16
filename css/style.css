@@ -26,7 +26,7 @@ main .container-principal {
 
 .container-principal .container-banner {
     align-items: center;
-    background: linear-gradient(to right, #006676c5, #149d64d2), url(img/bg-form.jpg) no-repeat;
+    background: linear-gradient(to right, #006676c5, #149d64d2), url(../img/bg-form.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
